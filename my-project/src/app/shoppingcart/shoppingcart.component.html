@@ -1,1 +1,76 @@
-<p>shoppingcart works!</p>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<div class="main-shopping">
+  <p class="shopping-navigate"></p>
+  <div class="shopping__cart">
+    <div class="shopping__cart-left">
+      <div class="shopping__cart-left--header">
+
+      </div>
+      <table class="shopping__cart-left--detail">
+        <tr>
+          <th></th>
+          <th>Sản phẩm</th>
+          <th></th>
+          <th>Giá thành</th>
+          <th>Số lượng</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id="">
+          </td>
+          <td><img src="" alt=""></td>
+          <td>105.000đ</td>
+          <td><div>
+            <button (click)="decrease()">-</button>
+            <input type="text" [(ngModel)]="quantity1">
+            <button (click)="increase()">+</button>
+          </div></td>
+          <td><span class="material-icons-outlined">
+            delete_outline
+            </span></td>
+
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="" id="">
+          </td>
+          <td><img src="" alt=""></td>
+          <td>105.000đ</td>
+          <td><div>
+            <button (click)="decrease()">-</button>
+            <input type="text" [(ngModel)]="quantity2">
+            <button (click)="increase()">+</button>
+          </div></td>
+          <td><span class="material-icons-outlined">
+            delete_outline
+            </span></td>
+
+        </tr>
+      </table>
+    </div>
+    <div class="shopping__cart-right">
+
+    </div>
+  </div>
+  <div class="shopping__orther-product">
+    <div class="orther__product-item">
+
+    </div>
+    <div class="orther__product-item">
+
+    </div>
+    <div class="orther__product-item">
+
+    </div>
+    <div class="orther__product-item">
+
+    </div>
+    <div class="orther__product-item">
+
+    </div>
+  </div>
+</div>
+
