@@ -190,6 +190,8 @@ align-items: flex-end   ;
 }
 .material-icons{
     color: #2D982A !important;
+    display: flex;
+    align-items: center;
 }
 .history, .cart{cursor: pointer;}
 
@@ -305,9 +307,9 @@ padding-top: 0;
 
  .header__navbar .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
 
   .header__navbar .menu ul {
