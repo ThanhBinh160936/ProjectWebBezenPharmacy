@@ -1,5 +1,4 @@
 * {
-
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 body {
@@ -38,8 +37,7 @@ body {
   /* Bordered login form */
   .login_form {
       /* border-bottom: 3px solid #d9d9d9; */
-      width: 519px;
-    height: 556px;
+      width: 522px;
       display: flex;
       flex-direction: column;
   
@@ -47,7 +45,7 @@ body {
   h2{
   width: 519px;
   height: 34px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -61,13 +59,14 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin:auto;
   }
   .container__input{
       display: flex;
       width: 90%;
       flex-direction: column;
       padding: 0px;
-      gap: 18px;
+      gap: 25px;
       margin-bottom: 40px;
   }
   .input--content{
@@ -79,24 +78,6 @@ body {
       width: 263px;
       border: 0px;
       border-bottom: 1px solid #000000;
-      background-color: #F8F8F8;
-  
-  }
-  .gender input{ 
-    width: 16px !important;height: 16px;
-    margin-right: 5px;
-  }
-  [type="radio"]:checked {
-    background-color: #2D982A;
-    border: 2px solid #2D982A;
-  }
-  .gender .input--content{
-    width: 60%;
-    display:flex;
-    gap: 75px;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 15px;
   }
   .container__input--item .material{
       width: 7px;
@@ -110,18 +91,6 @@ body {
       align-items:flex-start;
       float: right;
       color: #FF0F0F;   
-  }
-  .container__checkbox{
-      width: 90%;
-      margin-bottom: 20px;
-  }
-  .checkbox{
-      background: #2D982A !important;
-  }
-  .container__checkbox a{
-      float: right;
-      font-weight: bold;
-      color: #2D982A !important;
   }
   .login_button{
       display: flex;
@@ -138,18 +107,9 @@ body {
   border: 0PX;
   border-radius: 23px;
   color: white !important;
-  margin-bottom: 20px;
-  }
-  .content--bottom{
-      display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  }
-  .content--bottom p{
-      margin-bottom: 5px;
+  margin-bottom: 25px;
   }
   .content--bottom a{
-      color: #2D982A;
-      font-weight: bold;
-  }
+    color:#000000;
+    font-weight: bold;
+}

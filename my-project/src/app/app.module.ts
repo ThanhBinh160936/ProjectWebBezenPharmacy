@@ -28,6 +28,8 @@ import { PolicysecurityComponent } from './infor/policysecurity/policysecurity.c
 import { MemberpointComponent } from './infor/memberpoint/memberpoint.component';
 import { SignupOTPComponent } from './signup/signup-otp/signup-otp.component';
 import { ResetpswComponent } from './forgotpassword/resetpsw/resetpsw.component';
+import { ChangePswComponent } from './profile/change-psw/change-psw.component';
+import { OrderhistoryComponent } from './profile/orderhistory/orderhistory.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +60,8 @@ import { ResetpswComponent } from './forgotpassword/resetpsw/resetpsw.component'
     MemberpointComponent,
     SignupOTPComponent,
     ResetpswComponent,
+    ChangePswComponent,
+    OrderhistoryComponent,
   ],
   imports: [
     BrowserModule,
