@@ -27,6 +27,7 @@ import { PolicypaymentComponent } from './infor/policypayment/policypayment.comp
 import { PolicysecurityComponent } from './infor/policysecurity/policysecurity.component';
 import { MemberpointComponent } from './infor/memberpoint/memberpoint.component';
 import { SignupOTPComponent } from './signup/signup-otp/signup-otp.component';
+import { ResetpswComponent } from './forgotpassword/resetpsw/resetpsw.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { SignupOTPComponent } from './signup/signup-otp/signup-otp.component';
     PolicysecurityComponent,
     MemberpointComponent,
     SignupOTPComponent,
+    ResetpswComponent,
   ],
   imports: [
     BrowserModule,

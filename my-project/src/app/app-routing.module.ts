@@ -1,6 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { ResetpswComponent } from './forgotpassword/resetpsw/resetpsw.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SignupOTPComponent } from '../app/signup/signup-otp/signup-otp.component';
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:"app-signup", component: SignupComponent},
   {path:"app-login",component:LoginComponent},
   {path:"app-forgotpassword",component:ForgotpasswordComponent},
-  {path:"app-signup-otp", component: SignupOTPComponent }
+  {path:"app-signup-otp", component: SignupOTPComponent },
+  {path:"app-resetpsw", component: ResetpswComponent}
 ];
 
 @NgModule({
