@@ -26,6 +26,7 @@ import { PolicydeliveryComponent } from './infor/policydelivery/policydelivery.c
 import { PolicypaymentComponent } from './infor/policypayment/policypayment.component';
 import { PolicysecurityComponent } from './infor/policysecurity/policysecurity.component';
 import { MemberpointComponent } from './infor/memberpoint/memberpoint.component';
+import { SignupOTPComponent } from './signup/signup-otp/signup-otp.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { MemberpointComponent } from './infor/memberpoint/memberpoint.component'
     PolicypaymentComponent,
     PolicysecurityComponent,
     MemberpointComponent,
+    SignupOTPComponent,
   ],
   imports: [
     BrowserModule,

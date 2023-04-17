@@ -1,1 +1,105 @@
-<p>signup works!</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="left-content">
+        <img src="/assets/image/SignInUp/BannerHello.png" width="130px" class="banner"/>
+      </div>
+
+      <div class="right-content">
+        <form action="app-home" method="get" class="login_form">
+          <h2 class="header">ĐĂNG KÝ</h2>
+          <div class="container">
+            <div class="container__input">
+                <div class="container__input--item name">
+                    <label for="uname">Tên: </label>
+                    <div class="input--content">
+                        <input
+                        type="text"
+                        name="uname"
+                        required
+                      />
+                      <span class="material">*</span>
+                    </div>
+                  </div>
+                <div class="container__input--item phone">
+                    <label for="uname">Số điện thoại: </label>
+                    <div class="input--content">
+                        <input
+                        type="text"
+                        name="uname"
+                        required
+                      />
+                      <span class="material">*</span>
+                    </div>
+                  </div>
+                  <div class="container__input--item email">
+                    <label for="uname">Email: </label>
+                    <div class="input--content">
+                        <input
+                        type="text"
+                        name="uname"/>
+                        <span class="material"> </span>
+                    </div>
+                  </div>
+                  <div class="container__input--item address">
+                    <label for="uname">Địa chỉ: </label>
+                    <div class="input--content">
+                        <input
+                        type="text"
+                        name="uname"/>
+                        <span class="material"> </span>
+                    </div>
+                  </div>
+                  <div class="container__input--item gender">
+                    <label for="uname">Giới tính: </label>
+                    <div class="input--content">
+                          <label class="gender">
+                            <input type="radio" checked="checked" name="radio" >Nam
+                          </label>
+                          <label class="gender">
+                            <input type="radio" checked="checked" name="radio">Nữ
+                          </label>
+                    </div>
+                  </div>
+                  <div class="container__input--item pass">
+                    <label for="psw">Mật khẩu: </label>
+                    <div class="input--content">
+                        <input
+                        type="password"
+                        name="psw"
+                        required
+                      /><span class="material">*</span>
+                    </div>
+                    </div>
+                    <div class="container__input--item repass">
+                        <label for="psw">Nhập lại mật khẩu: </label>
+                        <div class="input--content">
+                            <input
+                            type="password"
+                            name="psw"
+                            required
+                          /><span class="material">*</span>
+                        </div>
+                    </div>
+            </div>
+            <div>
+              <button type="submit" class="login_button" onclick="window.location='app-login'">HOÀN TẤT</button>
+            </div>
+          </div>
+          <div class="content--bottom">
+            <p>Đã có tài khoản?</p>
+            <a href="app-login">Đăng nhập ngay</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
