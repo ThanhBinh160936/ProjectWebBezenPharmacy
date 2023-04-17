@@ -9,6 +9,7 @@ import { AdminMessengerComponent } from './admin-messenger/admin-messenger.compo
 import { AdminOrderManagementComponent } from './admin-order-management/admin-order-management.component';
 import { AdminProductManagementComponent } from './admin-product-management/admin-product-management.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { NavigateBarComponent } from './navigate-bar/navigate-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
     AdminMessengerComponent,
     AdminOrderManagementComponent,
     AdminProductManagementComponent,
-    AdminLoginComponent
-  ],
+    AdminLoginComponent,
+    NavigateBarComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
