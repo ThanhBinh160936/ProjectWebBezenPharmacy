@@ -1,24 +1,19 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-<<<<<<< HEAD
-import { FooterComponent } from './footer/footer.component';
 import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
-import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-
-const routes: Routes = [
-  {path:"", component: SignupComponent},
-  {path:"",component:LoginComponent},
-  {path:"",component:ForgotpasswordComponent}
-=======
+import { SignupOTPComponent } from '../app/signup/signup-otp/signup-otp.component';
 import { HomeComponent } from './home/home.component';
 import { ShoppingcartComponent } from './shoppingcart/shoppingcart.component';
 
 const routes: Routes = [
-  {path:"", component:HomeComponent},
-  {path:"shopping-cart", component:ShoppingcartComponent}
->>>>>>> cf0ad07a9e3d9123641c487389759421c4010a0b
+  {path:"app-home", component:HomeComponent},
+  {path:"shopping-cart", component:ShoppingcartComponent},
+  {path:"app-signup", component: SignupComponent},
+  {path:"app-login",component:LoginComponent},
+  {path:"app-forgotpassword",component:ForgotpasswordComponent},
+  {path:"app-signup-otp", component: SignupOTPComponent }
 ];
 
 @NgModule({
