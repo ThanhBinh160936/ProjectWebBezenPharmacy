@@ -32,16 +32,17 @@ body {
       align-items: center;
   }
   /* Bordered login form */
-  .login_form {
+  .signup_form {
       /* border-bottom: 3px solid #d9d9d9; */
       width: 522px;
       display: flex;
       flex-direction: column;
+  
   }
   h2{
   width: 519px;
   height: 34px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -59,62 +60,28 @@ body {
   }
   .container__input{
       display: flex;
-      width:max-content;
+      width: 90%;
       flex-direction: column;
       padding: 0px;
       gap: 25px;
-      margin-bottom: 0px;
+      margin-bottom: 20px;
   }
-  .input--content{
-      float: right;
-      display: flex;
-      flex-direction:row
+  .text--OTP{
+    text-align: center;
   }
-  .input--content input{
-      width: 263px;
-      border: 0px;
-      border-bottom: 1px solid #000000;
-      padding:0px ;
-  
-  }
-  .container__input--item .material{
-      width: 7px;
-      height: 7px;
-      
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 16px;
-      align-items:flex-start;
-      float: right;
-      color: #FF0F0F;   
-  }
-  .container__input--item{
+  .container__checkbox{
     display: flex;
     display: block;
     flex-direction: column;
-    margin-bottom: 25px;
-    justify-content:space-between;
+    margin-bottom: 40px;
   }
-  .container__input--item div{
-    margin-bottom: 20px;
-    justify-content:space-between;
+  .container__checkbox label{
+    margin-right: 5px;
+    margin-bottom: 15px;
   }
-  .container__input--item div input{
-    float: right;
-  }
-  #otp-send{
-    position:relative;
-    right: 0;
-    width: 100px;
-    height: 27px;
-    border-radius: 5px;
-    background-color: #2D982A;
-    color: white;
-    border: none;
-    cursor: pointer;
-    float:right;
+  .container__checkbox input{
+    width: 245px;
+    height: 25px;
   }
   .reset-OTP{
     float: right;
@@ -135,10 +102,6 @@ body {
     font-size: 15px;
     font-weight: bold;
     height: 27px;
-    /* border-radius: 5px; */
-    /* background-color: #2D982A; */
-    /* color: white; */
-    /* border: none; */
     cursor: pointer;
     float:right;
   }
