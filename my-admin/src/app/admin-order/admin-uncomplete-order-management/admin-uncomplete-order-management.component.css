@@ -33,14 +33,15 @@
     text-align: center;
 }
 .page-title{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.page-body{
     margin: 50px 0 20px 80px;
     font-weight: bold;
     font-size: 35px;
-}
-.page-body{
-    background-color: #FFFF;
-    margin: 0 80px;
-
 }
 .page-body-header{
     display: flex;
@@ -62,11 +63,11 @@
     border-radius: 25px;
     margin-right: 20px;
 }
-#customers{
+#unorders{
     text-align: center;
     width: 100%;
 }
-#customers th{
+#unorders th{
     text-align: center;
     background-color: #dcf4db;
     border: 1px solid #dcf4db;
@@ -75,15 +76,20 @@
     padding-bottom: 12px;
     padding: 8px;
 }
-#customers td {
+#unorders td {
     padding: 8px;
     text-align: center;
 }
-#customers tr:nth-child(even){background-color: #f2f2f2}
+#unorders tr:nth-child(even){background-color: #f2f2f2}
 
-#customers tr:hover {background-color: #FFFF}
+#unorders tr:hover {background-color: #FFFF}
 
-#visual{
+#check{
+    border: none;
+    cursor: pointer;
+}
+
+#cancel{
     border: none;
     cursor: pointer;
 }

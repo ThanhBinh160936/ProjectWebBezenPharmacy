@@ -10,6 +10,8 @@ import { AdminOrderManagementComponent } from './admin-order-management/admin-or
 import { AdminProductManagementComponent } from './admin-product-management/admin-product-management.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { NavigateBarComponent } from './navigate-bar/navigate-bar.component';
+import { AdminUncompleteOrderManagementComponent } from './admin-uncomplete-order-management/admin-uncomplete-order-management.component';
+import { AdminOrderDertailManagementComponent } from './admin-order/admin-order-dertail-management/admin-order-dertail-management.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { NavigateBarComponent } from './navigate-bar/navigate-bar.component';
     AdminOrderManagementComponent,
     AdminProductManagementComponent,
     AdminLoginComponent,
-    NavigateBarComponent
+    NavigateBarComponent,
+    AdminUncompleteOrderManagementComponent,
+    AdminOrderDertailManagementComponent
     ],
   imports: [
     BrowserModule,

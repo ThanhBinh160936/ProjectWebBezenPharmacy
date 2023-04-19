@@ -40,7 +40,6 @@
 .page-body{
     background-color: #FFFF;
     margin: 0 80px;
-
 }
 .page-body-header{
     display: flex;
@@ -62,11 +61,11 @@
     border-radius: 25px;
     margin-right: 20px;
 }
-#customers{
+#orders{
     text-align: center;
     width: 100%;
 }
-#customers th{
+#orders th{
     text-align: center;
     background-color: #dcf4db;
     border: 1px solid #dcf4db;
@@ -75,15 +74,20 @@
     padding-bottom: 12px;
     padding: 8px;
 }
-#customers td {
+#orders td {
     padding: 8px;
     text-align: center;
 }
-#customers tr:nth-child(even){background-color: #f2f2f2}
+#orders tr:nth-child(even){background-color: #f2f2f2}
 
-#customers tr:hover {background-color: #FFFF}
+#orders tr:hover {background-color: #FFFF}
 
 #visual{
+    border: none;
+    cursor: pointer;
+}
+
+#delete{
     border: none;
     cursor: pointer;
 }
@@ -108,4 +112,20 @@
   .page-body-nav a:hover:not(.active) {
     background-color: #ddd;
     border-radius: 5px;
+  }
+
+  #completing{
+    color: #379d34
+  }
+
+  #waiting{
+    color: #000000;
+  }
+  #deleting{
+    color: #FF0000;
+
+  }
+  #delivering{
+    color: #0047FE;
+
   }
