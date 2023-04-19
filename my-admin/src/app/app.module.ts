@@ -11,6 +11,7 @@ import { AdminOrderDertailManagementComponent } from './admin-order/admin-order-
 import { AdminUncompleteOrderManagementComponent } from './admin-order/admin-uncomplete-order-management/admin-uncomplete-order-management.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { NavigateBarComponent } from './navigate-bar/navigate-bar.component';
+import { AdminCustomerDetailManagementComponent } from './admin-customer/admin-customer-detail-management/admin-customer-detail-management.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { NavigateBarComponent } from './navigate-bar/navigate-bar.component';
     NavigateBarComponent,
     AdminUncompleteOrderManagementComponent,
     AdminOrderDertailManagementComponent,
+    AdminCustomerDetailManagementComponent,
     ],
   imports: [
     BrowserModule,
